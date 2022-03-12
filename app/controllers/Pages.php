@@ -5,11 +5,12 @@ class Pages extends Controller
     public function __construct()
     {
         //$this->userModel = $this->model('User');
-        $this->restaurantModel = $this->model('Restaurant');
-        $this->ticketsModel = $this->model('RestaurantTickets');
+
         $this->ticketModel = $this->model('Ticket');
         $this->userModel = $this->model('User');
         $this->JazzModel = $this->model('JazzModel');
+        $this->restaurantModel = $this->model('Restaurant');
+        $this->ticketsModel = $this->model('RestaurantTickets');
     }
 
     public function index()
@@ -17,13 +18,8 @@ class Pages extends Controller
         $restaurant = $this->restaurantModel->getAllRestaurant();
         $restaurant_type = $this->restaurantModel->getAllType();
         $data = array($restaurant, $restaurant_type);
-        $this->view('pages/food_home', $data);
-
-        /*$data = [
-            'title' => 'Home page'
-        ];
-
-        $this->view('index', $data);*/
+        var_dump($data[0]);
+        $this->view('pages/foodHome', $data);
     }
 
     public function about()
@@ -35,12 +31,12 @@ class Pages extends Controller
         $this->view('pages/about', $data);
     }
 
-    public function food_home()
+    public function foodHome()
     {
         $restaurant = $this->restaurantModel->getAllRestaurant();
         $restaurant_type = $this->restaurantModel->getAllType();
-        $data = array($restaurant, $restaurant_type);
-        $this->view('pages/food_home', $data);
+        $data = array($restaurant);
+        $this->view('pages/foodHome', $data);
     }
 
     public function cms()
@@ -53,46 +49,14 @@ class Pages extends Controller
         $this->view('pages/cms', $data);
     }
 
-    public function food_tickets($restaurant_Id)
+    public function foodTickets($restaurant_Id)
     {
         $ticket = $this->ticketsModel->getRestaurantTickets($restaurant_Id);
         $data = array($ticket);
-        $this->view('pages/food_tickets', $data);
+        $this->view('pages/foodTickets', $data);
     }
     public function orders()
     {
-        $target_dir = "/upload";
-
-        $uploadOk = 1;
-
-
-        // Check if image file is a actual image or fake image
-        if (isset($_POST["submit"])) {
-            $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-            $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
-            print_r($imageFileType);
-            if ($target_file == "upload/") {
-                $msg = "cannot be empty";
-                $uploadOk = 0;
-            } // Check if file already exists
-            else if (file_exists($target_file)) {
-                $msg = "Sorry, file already exists.";
-                $uploadOk = 0;
-            } // Check file size
-            else if ($_FILES["fileToUpload"]["size"] > 5000000) {
-                $msg = "Sorry, your file is too large.";
-                $uploadOk = 0;
-            } // Check if $uploadOk is set to 0 by an error
-            else if ($uploadOk == 0) {
-                $msg = "Sorry, your file was not uploaded.";
-
-                // if everything is ok, try to upload file
-            } else {
-                if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                    $msg = "The file " . basename($_FILES["fileToUpload"]["name"]) . " has been uploaded.";
-                }
-            }
-        }
         $this->view('orders');
     }
     public function pdf_qrCode()
@@ -129,6 +93,7 @@ class Pages extends Controller
     {
         $topArtists = $this->JazzModel->getTopArtists();
         $data = array($topArtists);
+        var_dump($data);
         $this->view('pages/jazzhomepage', $data);
     }
 

@@ -59,13 +59,7 @@ require APPROOT . '/views/includes/head.php';
 
 </section>
 
-<section>
-    <form action="<?php echo URLROOT; ?>/Pages/pdf_qrCode" method="post" id="myForm" enctype="multipart/form-data">
-        Select file to upload:
-        <input type="file" name="fileToUpload" id="fileToUpload">
-        <button name="submit" class="btn btn-primary" type="submit" value="submit">Upload File</button>
-    </form>
-</section>
+
 
 <?php
 require APPROOT . '/views/includes/footer.php';

@@ -2,7 +2,7 @@
 Class RestaurantTickets{
     private $db;
     public function __construct() {
-     $this->db = new Database;
+     $this->db = Database::getInstance();
     }
 
     public function getRestaurantTickets($restaurant_Id){

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="511fb92e-d2ad-4a76-8aea-3ef82d797b60" name="Default Changelist" comment="" />
+    <list default="true" id="511fb92e-d2ad-4a76-8aea-3ef82d797b60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/pages/foodHome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Restaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Restaurant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/RestaurantTickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/RestaurantTickets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/includes/restaurant_Cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/includes/restaurantCards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/food_home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/food_tickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/foodTickets.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +39,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1pc1Gt1BCiHzR2D1VUMFdPckmpy" />
@@ -20,6 +53,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -106,52 +145,40 @@
       <workItem from="1629884439126" duration="721000" />
       <workItem from="1629892558570" duration="100000" />
       <workItem from="1630334253792" duration="143000" />
+      <workItem from="1645285616523" duration="3384000" />
+      <workItem from="1645294774713" duration="5638000" />
+      <workItem from="1646482355546" duration="2230000" />
+      <workItem from="1647079129190" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="227" y="42" key="#CLI_Interpreters" timestamp="1619199114443">
-      <screen x="0" y="22" width="1280" height="715" />
+    <state x="227" y="40" key="#CLI_Interpreters" timestamp="1645299758344">
+      <screen x="0" y="22" width="1280" height="713" />
     </state>
-    <state x="227" y="42" key="#CLI_Interpreters/0.22.1280.715@0.22.1280.715" timestamp="1619199114443" />
-    <state x="0" y="211" key="#SQL_Dialects" timestamp="1620382639675">
-      <screen x="0" y="22" width="1280" height="708" />
+    <state x="227" y="40" key="#CLI_Interpreters/0.22.1280.713@0.22.1280.713" timestamp="1645299758344" />
+    <state x="141" y="22" key="SettingsEditor" timestamp="1645299766447">
+      <screen x="0" y="22" width="1280" height="713" />
     </state>
-    <state x="0" y="211" key="#SQL_Dialects/0.22.1280.708@0.22.1280.708" timestamp="1620382639675" />
-    <state x="240" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620382657117">
-      <screen x="0" y="22" width="1280" height="708" />
+    <state x="141" y="22" key="SettingsEditor/0.22.1280.713@0.22.1280.713" timestamp="1645299766447" />
+    <state x="0" y="22" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1645299753564">
+      <screen x="0" y="22" width="1280" height="713" />
     </state>
-    <state x="240" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1280.708@0.22.1280.708" timestamp="1620382657117" />
-    <state x="397" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619437975977">
-      <screen x="0" y="22" width="1280" height="706" />
-    </state>
-    <state x="397" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1280.706@0.22.1280.706" timestamp="1619437975977" />
-    <state x="293" y="109" key="NewPhpClassDialog" timestamp="1619877713921">
-      <screen x="0" y="22" width="1280" height="708" />
-    </state>
-    <state x="293" y="109" key="NewPhpClassDialog/0.22.1280.708@0.22.1280.708" timestamp="1619877713921" />
-    <state x="453" y="298" key="NewPhpFileDialog" timestamp="1624536733781">
-      <screen x="0" y="22" width="1280" height="706" />
-    </state>
-    <state x="453" y="298" key="NewPhpFileDialog/0.22.1280.706@0.22.1280.706" timestamp="1624536733781" />
-    <state x="453" y="299" key="NewPhpFileDialog/0.22.1280.708@0.22.1280.708" timestamp="1619877743864" />
-    <state x="453" y="301" key="NewPhpFileDialog/0.22.1280.713@0.22.1280.713" timestamp="1620477239262" />
-    <state x="141" y="22" width="997" height="717" key="SettingsEditor" timestamp="1624543413263">
-      <screen x="0" y="22" width="1280" height="706" />
-    </state>
-    <state x="141" y="22" width="997" height="706" key="SettingsEditor/0.22.1280.706@0.22.1280.706" timestamp="1624543413263" />
-    <state x="141" y="22" width="997" height="708" key="SettingsEditor/0.22.1280.708@0.22.1280.708" timestamp="1618597026960" />
-    <state x="141" y="22" width="997" height="717" key="SettingsEditor/0.22.1280.715@0.22.1280.715" timestamp="1619199115626" />
-    <state x="326" y="130" width="615" height="490" key="find.popup" timestamp="1624538363839">
-      <screen x="0" y="22" width="1280" height="706" />
-    </state>
-    <state x="326" y="130" width="615" height="490" key="find.popup/0.22.1280.706@0.22.1280.706" timestamp="1624538363839" />
-    <state x="22" y="52" width="670" height="676" key="search.everywhere.popup" timestamp="1624543407700">
-      <screen x="0" y="22" width="1280" height="706" />
-    </state>
-    <state x="22" y="52" width="670" height="676" key="search.everywhere.popup/0.22.1280.706@0.22.1280.706" timestamp="1624543407700" />
+    <state x="0" y="22" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.22.1280.713@0.22.1280.713" timestamp="1645299753564" />
   </component>
 </project>
